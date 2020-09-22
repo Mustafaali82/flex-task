@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: yellow;
+  height: 680px;
+  width: 100%;
+}
+.mustafa {
+  background-color:rgb(112, 112, 226);
+  height: 460px;
+  width: 939px;
+}
+.saroosh {
+  background-color: white;
+  height: 190px;
+  width: 520px;
+  justify-content: flex-start;
+}
+
+img {
+  height: 189px;
+}
+
+.paragraph {
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: -20px;
+}
+.img1 {
+  width: 25px;
+  height: 25px;
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+P {
+  margin-top: 9px;
+}
+.p2 {
+  align-self: flex-start;
+  margin-left: 64px;
+  margin-top: -1px;
+}
+h4 {
+  padding-top: 27px;
+}
+h3 {
+  margin-top: -25px;
+  margin-left: -34px;
+  
+}
+.image2 {
+  width: 30px;
+  height: 30px;
+  align-self: flex-end;
+  margin-right: 22px;
+  margin-top: -29px;
+}
+.mustafa:hover{
+  background-color: aliceblue;
+width: 70%;
+transition: 0.7s ease-in;
+border-radius: 50%;
+transform: skewX(30deg);
+box-shadow: 5px 5px 10px yellow;
+}
+.container:hover{
+  background-color:pink;
+}
+.saroosh:hover{
+  background-color:rgb(28, 219, 245);
+  color: white;
+  transition: 0.9s ease-in;
+}
