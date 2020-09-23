@@ -16,6 +16,7 @@ div {
   background-color:rgb(112, 112, 226);
   height: 460px;
   width: 939px;
+transition: 0.9s ease-out;
 }
 .saroosh {
   background-color: white;
@@ -67,7 +68,7 @@ h3 {
 .mustafa:hover{
   background-color: aliceblue;
 width: 70%;
-transition: 0.7s ease-in;
+transition: 0.9s ease-in;
 border-radius: 50%;
 transform: skewX(30deg);
 box-shadow: 5px 5px 10px yellow;
