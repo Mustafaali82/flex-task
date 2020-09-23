@@ -13,10 +13,10 @@ div {
   width: 100%;
 }
 .mustafa {
-  background-color:rgb(112, 112, 226);
+  background-color: rgb(112, 112, 226);
   height: 460px;
   width: 939px;
-transition: 0.9s ease-out;
+  transition: 0.9s ease-out;
 }
 .saroosh {
   background-color: white;
@@ -25,7 +25,7 @@ transition: 0.9s ease-out;
   justify-content: flex-start;
 }
 
-img{
+img {
   height: 189px;
 }
 
@@ -56,7 +56,6 @@ h4 {
 h3 {
   margin-top: -25px;
   margin-left: -34px;
-  
 }
 .image2 {
   width: 30px;
@@ -65,19 +64,19 @@ h3 {
   margin-right: 22px;
   margin-top: -29px;
 }
-.mustafa:hover{
+.mustafa:hover {
   background-color: aliceblue;
-width: 70%;
-transition: 0.9s ease-in;
-border-radius: 50%;
-transform: skewX(30deg);
-box-shadow: 5px 5px 10px yellow;
+  width: 70%;
+  transition: 0.9s ease-in;
+  border-radius: 50%;
+  transform: skewX(30deg);
+  box-shadow: 5px 5px 10px yellow;
 }
-.container:hover{
-  background-color:pink;
+.container:hover {
+  background-color: pink;
 }
-.saroosh:hover{
-  background-color:rgb(28, 219, 245);
+.saroosh:hover {
+  background-color: rgb(28, 219, 245);
   color: white;
   transition: 0.9s ease-in;
 }
