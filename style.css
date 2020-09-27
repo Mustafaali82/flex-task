@@ -1,65 +1,92 @@
-* {
-  margin: 0;
-  padding: 0;
+*{
+
+  box-sizing: border-box;
 }
 body{
-  background-color: aliceblue;
-}
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0;
+  padding: 0;
 
+}
+html{
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+span{
+  display: inline-block;
+  height: 5px;
+  width: 20px;
+  background-color: yellow;
+  margin-bottom: 20px;
+}
+section.main{
   height: 100vh;
   width: 100vw;
-
-}
-.two {
   display: flex;
-  background-color: white;
-  height: 200px;
-  width: 500px;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
 }
-img {
-  height: 200px;
-  width: 132px;
+.img1{
+width: 40px;
+height: 40px;
 }
-.paragraph {
+section.container{
+  background: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  box-shadow: 0px 9px 17px black;
 }
-p {
-  width: 329px;
-  margin-top: 2px;
-  margin-left: 20px;
+h1{
+  font-weight: 700px;
+  font-size: 40px;
+  margin: 0px 0px 10px;
 }
-.img {
-  height: 37px;
-  width: 35px;
-  margin-top: -19px;
-  margin-left: 20px;
+.img{
+  width: 100%;
 }
-h4 {
-  height: 5px;
-  margin-top: 30px;
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 55px;
+p{
+  font-weight: 400px;
+  line-height: 20px;
+  margin: 0px 0px 20px 0px;
 }
-h5{
- display: flex;
- justify-content: flex-start;
-  margin-top: -25px;
-  margin-left: 55px;
+section.img{
+  height: 350px;
+  width: 100%;
+  background: url(image/pexels-photo-546819.jpeg);
+  background-size: cover;
+  background-position:center;
 }
+section.text-container{
+  margin: 20px 20px 20px;
+}
+@media screen and (min-width: 700px){
+  section.container{
+    width: 100%;
+    flex-direction: row; 
+  }
+  section.img{
+    min-width: 300px;
+    height: 330px;
+  }
+  section.text-container{
+    margin: 0px 20px;
+    max-width: 500px;
+  }
 
-.img2 {
-  width: 20px;
-  height: 20px;
-  align-self: flex-end;
-  margin-top: -20px;
 }
-.two:hover {
-  box-shadow: 5px 5px 5px black;
+@media screen and (min-width: 1000px){
+  section.container{
+    max-width: 1100px;
+  }
+}
+h3{
+  margin-left: 60px;
+  margin-top: -35px;
+}
+h6{
+  margin-left: 60px;
+  margin-top: -20px;
 }
